@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Kitty</title>
+        <style>
+            body {
+                background-color:blanchedalmond;
+                font-size: 15px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: hotpink;
+            }
+
+            h1 {
+                color: rgb(87, 154, 224);
+                background-color: pink;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                position: absolute;
+                top: 20px;
+                z-index: 1;
+            }
+
+            h2 {
+                color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h3 {
+                color: rgb(0, 255, 153);
+            }
+
+            #cool-cats {
+                font-family: monospace;     
+            }
+
+            p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            table {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+
+            
+            .cat-facts {
+                background-color: rgb(255, 127, 191);
+                font-style: italic;
+            }
+
+            #cat-link {
+                background-color:rgb(131, 177, 233);
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+                text-align: center;
+            }   
+
+            #garfield-cat {
+                background-color: white;
+            }
+
+            #felix-cat {
+                background-color: white;
+            }
+
+            #cheshire-cat {
+                background-color: white;
+            }
+
+            .first-sentence {
+                font-weight: bold;
+            }
+
+            .first-paragraph {
+                background-color: pink;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            #basic-info {
+                background: white;
+                width: 70%;
+                height: 100px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                border-top: 6px solid pink;
+                padding: 6px;
+            }
+
+            #cat-photo {
+                width: 220px;
+                height: 220px;
+                position: auto;
+                top: 80px;
+                z-index: 2;
+                padding-bottom: 10px;
+                overflow: visible;
+            }
+
+            #menu {
+                position: absolute;
+                top: 100px;
+                z-index: 3;
+            }
+
+            #title {
+                position: absolute;
+                top: 1px;
+                background-color: beige;
+            }
+
+            #cat-poem {
+                width: 165px;
+                border: 5px groove whitesmoke
+            }
+
+            #garfield {
+                margin-right: 15px;
+                width: 30px;
+                border: 2px dotted grey;
+            }
+
+            #felix {
+                margin-right: 15px;
+                width: 30px;
+                border: 2px dotted grey
+            }
+
+            #cheshire {
+                margin-right: 15px;
+                width: 30px;
+                border: 2px dotted grey
+            }
+
+            #container {
+                margin: auto;
+                width: 400px;
+                border: 5px solid greenyellow; 
+                border-top: 10px solid greenyellow;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        <!--Beginning-->
+      <div id="cloud-cat"><img id="cat-photo" src="https://cdn-icons-png.flaticon.com/512/3479/3479853.png" alt="An icon of a cat sitting on a cloud."></div>
+        <div id="title"><h1>kitty cauldron</h1></div>
+        <div id="menu">
+            <ul>
+            <li><a href="#general-info-cats">Basic Info</a></li>
+            <li><a href="#cat-poetry">Poems</a></li>
+            <li><a href="#cool-cats">Fun Cat Lists</a></li>
+            <li><a href="#diet-cats">Diet Info</a></li>
+        </ul>
+        </div>
+        <main>
+            
+        </main><div id="basic-info"><h2 id="general-info-cats">Basic Info</h2>
+        <p><strong class="cat-facts">There are over 500 million domestic cats in the world.</strong> Cats and humans have been associated for nearly 10000 years. Cats conserve energy by sleeping for an average of 13 to14 hours a day. Cats have flexible bodies and teeth adapted for hunting small animals such as mice and rats.</p>
+        </div>
+        <h2 id="cat-poetry">Poems</h2>
+            <a href="https://www.imagineforest.com/blog/cat-poems-for-kids/">
+                <img id="cat-poem" src="https://assets.imagineforest.com/blog/wp-content/uploads/2020/09/Cat-Poems-That-Rhyme-1-724x1024.jpg" alt="A poem about cats."></a>
+            <p id="cat-link">To read more poems, click on the ^_^ (cat) in the picture - or click <a href="https://www.imagineforest.com/blog/cat-poems-for-kids/">here.</a></p>
+            <h3 id="cool-cats">About the Top 3 Most Famous Cats</h3>
+        <ol>
+            <li><a href="https://www.youtube.com/@thegarfieldshowofficial">Garfield</a></li>
+            <li><a href="https://www.youtube.com/watch?v=amGbBFsiuzc">Felix the Cat</a></li>
+            <li><a href="https://www.youtube.com/watch?v=G4fHre-yRPY">The Cheshire Cat</a></li>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cat Name</th>
+                    <th>Species</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="garfield-cat">
+                    <td><img id="garfield" src="https://comicvine.gamespot.com/a/uploads/original/11/111746/4684849-latest.jpg" alt="A photo of Garfield.">Garfield</td>
+                    <td>Tabby</td>
+                    <td>Orange</td>
+                </tr>
+                <tr id="felix-cat">
+                    <td><img id="felix" src="https://eu-images.contentstack.com/v3/assets/blt781c383a1983f673/blt5cf68cd36afe81cc/621c8162fadae129354cd13c/DreamWorksFelix.png?width=800&auto=webp&format=png" alt="A photo of Felix the Cat"> Felix the Cat</td>
+                    <td>Tuxedo</td>
+                    <td>Black and White</td>
+                </tr>
+                <tr id="cheshire-cat">
+                    <td><img id="cheshire" src="https://easydrawingguides.com/wp-content/uploads/2018/10/Cheshire-Cat-10.png" alt="A photo of the Cheshire Cat."> The Cheshire Cat</td>
+                    <td>British Short-hair</td>
+                    <td>Pink and Purple</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="cool-cats">Why Cats Make Great Pets</h3>
+        <ul>
+            <li>They're fluffy!</li>
+            <li>They're independent.</li>
+            <li>They are cute, duh.</li>
+        </ul>
+        <form action="http://www.google.com/forms"><p>Why else do cats make great pets?</p><input type="text" placeholder="Answer" required>
+        <button type="Submit">Submit</button>
+        <p>Do you have a pet cat?</p><label>
+            <input type="radio" value="answer" name="yes-no">Yes</label>
+        <label for="yes" input id="yes" input type="radio" value="answer" name="yes-no">No</label>
+        </label>
+        <p>If so, is it a boy or girl?</p>
+        <label>
+            <input type="checkbox" value="gender" name="boy-girl">Boy</label>
+        </label>
+        <label>
+            <input type="checkbox" value="gender" name="boy-girl">Girl</label>
+        </label>
+        </form>
+
+        <h2 id="diet-cats">Diet</h2>
+        <div class="first-paragraph"><span class="first-sentence">Cats are obligate carnivores, <em>which means that they rely on nutrients found only in animal products.</span></em> Cats evolved as hunters that consume prey that contains high amounts of protein, moderate amounts of fat, and a minimal amount of carbohydrates, and their diet still requires these general proportions today.</p></div>
+        </div>
+</body>
+</html>
