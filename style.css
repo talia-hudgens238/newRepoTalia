@@ -1,73 +1,177 @@
-#header {
+.header img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    overflow-block: auto;
+}
+
+#sparkle {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    height: 27px;
+    width: 55px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#sparkle2 {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    height: 27px;
+    width: 55px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+
+#subtitle {
+    color: whitesmoke;
+    font-size: px;
+    text-align: center;
+    border: 5px dotted rgb(185, 252, 51);
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#title {
+    font-size: 40px;
+    font-family: 'Moirai One';
+    color: #ffe600e6;
+    font-weight: 1px;
+    margin-top: -0px;
+    text-align: center;
+    word-spacing: 80px;
+    line-height: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+}
+
+[type='submit'] {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+.topnav {
     position: absolute;
-    top: 1px;
-    font-family: 'Yatra One';
-    color: rgba(92, 217, 192, 0.667);
+    left: 8px;
+    display: block;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Hind Vadodara';
+    word-spacing: 56px;
 }
 
+tbody {
+    font-family: 'Roboto';
+    text-align: center;
+}
 
-nav {
-    font-family: 'Lobster Two';
-    font-size: 25px;
+.topnav a {
+    color: rgba(0, 0, 0, 0.923);
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.info {
+    font-family: 'Roboto';
+    background-color: lightcyan;
+    text-align: center;
     padding: 10px;
-    width: 65px;
+    font-size: 12px;
+    line-height: 20px;
 }
-#history{
-    border: 2px solid bisque;
+
+#history {
+    border: 1px dashed white;
     padding: 5px;
+    background-color: #a1efeeef;
+
 }
+
 #poem {
-    border: 2px solid bisque;
+    border: 1px dashed white;
     padding: 5px;
+    background-color: #a1efeeef;
 }
-#famous{
-    border: 2px solid bisque;
+
+#famous {
+    border: 1px dashed white;
     padding: 5px;
+    background-color: #a1efeeef;
 }
+
 #food {
-    border: 2px solid bisque;
+    border: 1px dashed white;
     padding: 5px;
+    background-color: #a1efeeef;
 }
-
-
 
 body {
     background-color: mintcream;
-    font-size: 30px;
+    position: relative;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
-a:hover {
-    color: orange;
-}
+
 
 h2 {
-    font-family:'Moirai One';
-    font-size: 40px;
-    color: lightgreen;
+    font-family: 'Yatra One';
+    font-size: 26px;
+    color: gray;
     text-align: center;
+    background-color: ;
+    border: 1px solid whitesmoke;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+
+
 }
 
-h3 {
-    color: rgba(246, 189, 197, 0.68);
-    font-family: 'Lobster Two';
-    font-size: 20px;
-    border: 3px solid white;
-    padding: 10px;
-    text-align: center;
-}
 
-#list {
+#trait {
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#trait h2,
+form {
+    font-family: 'Roboto';
+    font-size: 13px;
+    text-align: center;
 }
 
 label {
     font-family: 'Roboto';
     color: black;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #cat-poem {
@@ -75,18 +179,22 @@ label {
     border: 5px groove whitesmoke;
     display: block;
     margin-left: auto;
-    margin-right:auto;
-}
-
-p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 table {
     font-family: 'Roboto';
     font-size: 12px;
+    top: 0;
+    left: 0;
+
 }
 
+td {
+    padding: 5px;
+    text-align: justify;
+}
 
 #cat-facts {
     background-color: rgb(255, 127, 191);
@@ -94,12 +202,13 @@ table {
 }
 
 #cat-link {
-    background-color: transparent;
+    background-color: white;
     font-family: 'Roboto';
     font-weight: bold;
     text-align: center;
     font-size: 15px;
-    padding: 25px;
+    padding: 9px;
+    margin-top: 30px;
 }
 
 #garfield-cat {
@@ -116,45 +225,43 @@ table {
 
 .first-sentence {
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
-p {
-    background-color: rgba(211, 211, 211, 0.256);
     font-family: 'Roboto';
-    font-size: 15px;
-    padding: 10px;
-}
-
-#logo {
-    width: 220px;
-    height: 220px;
+    font-size: 25px;
+    line-height: 20px;
 }
 
 #garfield {
     margin-right: 15px;
-    width: 30px;
-    border: 2px dotted grey;
+    width: 20px;
+    height: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
 }
 
 #felix {
     margin-right: 15px;
-    width: 30px;
-    border: 2px dotted grey
+    width: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
 }
 
 #cheshire {
     margin-right: 15px;
-    width: 30px;
-    border: 2px dotted grey
+    width: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
 }
 
-#container {
+#content {
     margin: auto;
     width: 400px;
-    border: 5px solid lightcyan;
-    border-top: 10px solid lavender;
-    border-bottom: 10px solid lavender;
-    padding: 15px;
+    padding: 13px;
+    background-color: #001eff4f;
+    box-shadow: 20px 20px 50px 10px #ee00ff3f;
+
+}
+
+hr {
+    border: 1px dashed whitesmoke;
+    width: 300px;
 }
