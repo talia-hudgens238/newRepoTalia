@@ -1,3 +1,55 @@
+#container-bg {
+    background: url(/cat-bg.png);
+    background-repeat: round;
+    background-size: 25%;
+
+}
+
+#content {
+    margin: auto;
+    width: 400px;
+    padding: 13px;
+    background: linear-gradient(35deg, #EEEEEE, #FCFCFC);
+
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    right: -10px;
+    font-family: 'Hind Vadodara';
+    word-spacing: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.847);
+}
+
+#history {
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(50deg, white, lightblue);
+}
+
+#poem {
+    padding: 5px;
+    background: linear-gradient(50deg, white, lightblue);
+    border-radius: 5px;
+}
+
+#famous {
+    padding: 5px;
+    background: linear-gradient(50deg, white, lightblue);
+    border-radius: 5px;
+}
+
+#food {
+    padding: 5px;
+    background: linear-gradient(50deg, white, lightblue);
+    border-radius: 5px;
+}
+
 .header img {
     width: 100px;
     height: 100px;
@@ -6,42 +58,9 @@
     display: block;
     margin-top: 35px;
     overflow-block: auto;
-}
-
-#sparkle {
-    display: block;
-    margin: 10px auto 10px auto;
-    width: 50%;
-    height: 27px;
-    width: 55px;
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
-
-#sparkle2 {
-    display: block;
-    margin: 10px auto 10px auto;
-    width: 50%;
-    height: 27px;
-    width: 55px;
-    display: flex;
-    flex: 1;
-    align-items: center;
-
-}
-
-#subtitle {
-    color: whitesmoke;
-    font-size: px;
-    text-align: center;
-    border: 5px dotted rgb(185, 252, 51);
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px lavender;
 }
 
 #title {
@@ -58,137 +77,109 @@
 
 }
 
-[type='submit'] {
-    position: relative;
-    top: 0px;
+#sparkle {
+    margin: 5px auto 5px auto;
+    width: 30px;
+    display: flex;
+
+}
+
+#subtitle {
+    color: gray;
+    text-align: center;
+    width: 200px;
+    margin: auto;
     left: 0px;
 
 }
 
-.topnav {
-    position: absolute;
-    left: 8px;
-    display: block;
-    margin: 5px 5px 5px 5px;
-    font-family: 'Hind Vadodara';
-    word-spacing: 56px;
+#sparkle2 {
+    margin: 5px auto 5px auto;
+    width: 30px;
+    display: flex;
+
 }
 
-tbody {
-    font-family: 'Roboto';
+h1 {
+    font-family: 'Concert One';
+    font-size: 40px;
+    color: black;
     text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    width: 160px;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    margin-top: 50px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
-.topnav a {
-    color: rgba(0, 0, 0, 0.923);
-}
-
-.topnav a:hover {
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
     color: white;
+
+
 }
 
-a:hover {
-    color: lightblue;
+p.first-sentence {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.215);
+    padding: 10px;
+    float: left;
+
 }
 
 .info {
-    font-family: 'Roboto';
-    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: lighter;
     text-align: center;
     padding: 10px;
     font-size: 12px;
     line-height: 20px;
-}
+    width: 150px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
-#history {
-    border: 1px dashed white;
-    padding: 5px;
-    background-color: #a1efeeef;
-
-}
-
-#poem {
-    border: 1px dashed white;
-    padding: 5px;
-    background-color: #a1efeeef;
-}
-
-#famous {
-    border: 1px dashed white;
-    padding: 5px;
-    background-color: #a1efeeef;
-}
-
-#food {
-    border: 1px dashed white;
-    padding: 5px;
-    background-color: #a1efeeef;
-}
-
-body {
-    background-color: mintcream;
-    position: relative;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-h2 {
-    font-family: 'Yatra One';
-    font-size: 26px;
-    color: gray;
-    text-align: center;
-    background-color: ;
-    border: 1px solid whitesmoke;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    position: relative;
-    top: 15px;
-
-
-}
-
-
-#trait {
-    font-family: 'Roboto';
-    font-size: 12px;
-    text-align: center;
-}
-
-#trait h2,
-form {
-    font-family: 'Roboto';
-    font-size: 13px;
-    text-align: center;
-}
-
-label {
-    font-family: 'Roboto';
-    color: black;
-    font-size: 12px;
 }
 
 #cat-poem {
-    width: 165px;
-    border: 5px groove whitesmoke;
+    width: 140px;
+    border-radius: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+#c {
+    width: 280px;
+    padding: 10px 0px 10px 0px;
 }
 
 table {
     font-family: 'Roboto';
-    font-size: 12px;
+    font-size: 10px;
     top: 0;
     left: 0;
+    margin: auto;
+    padding: 20px;
 
+}
+
+thead {
+    font-size: 12px;
+    font-family: 'playfair display';
 }
 
 td {
@@ -196,38 +187,14 @@ td {
     text-align: justify;
 }
 
-#cat-facts {
-    background-color: rgb(255, 127, 191);
-    font-style: italic;
-}
-
-#cat-link {
-    background-color: white;
+tbody {
     font-family: 'Roboto';
-    font-weight: bold;
     text-align: center;
-    font-size: 15px;
-    padding: 9px;
-    margin-top: 30px;
 }
 
 #garfield-cat {
     background-color: white;
-}
 
-#felix-cat {
-    background-color: white;
-}
-
-#cheshire-cat {
-    background-color: white;
-}
-
-.first-sentence {
-    font-weight: bold;
-    font-family: 'Roboto';
-    font-size: 25px;
-    line-height: 20px;
 }
 
 #garfield {
@@ -238,11 +205,19 @@ td {
     border-radius: 5px;
 }
 
+#felix-cat {
+    background-color: white;
+}
+
 #felix {
     margin-right: 15px;
     width: 20px;
     border: 2px solid grey;
     border-radius: 5px;
+}
+
+#cheshire-cat {
+    background-color: white;
 }
 
 #cheshire {
@@ -252,16 +227,74 @@ td {
     border-radius: 5px;
 }
 
-#content {
+#quiz {
+    width: 150px;
+    font-size: 25px;
+    padding: 2px 0px 2px 0px;
+    text-decoration: none;
+    background-color: red;
+}
+
+.trait {
+    font-family: 'Cutive Mono';
+    font-size: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.443);
+    width: 100px;
+    top: 0;
+    left: 0;
     margin: auto;
-    width: 400px;
-    padding: 13px;
-    background-color: #001eff4f;
-    box-shadow: 20px 20px 50px 10px #ee00ff3f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: skewX(10deg);
 
 }
 
-hr {
-    border: 1px dashed whitesmoke;
-    width: 300px;
+
+label {
+    font-family: 'Roboto';
+    color: black;
+    font-size: 12px;
 }
+
+label,
+radio #fluffy {
+    display: block;
+
+}
+
+label,
+radio #ind {
+    display: block;
+
+}
+
+label,
+radio #cute {
+    display: block;
+
+}
+
+form {
+    font-family: 'Roboto';
+    font-size: 13px;
+    text-align: center;
+}
+
+
+[type='submit'] {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+footer {
+    text-align: center;
+    width: 170px;
+    font-family: 'Concert One';
+    margin: auto;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
